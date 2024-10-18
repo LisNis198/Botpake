@@ -59,8 +59,8 @@ users.needObject=Have to be an Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=Yᴏᴜʀ Aʀᴇ Bᴀɴɴᴇᴅ- Yᴏᴜ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ!\n%1\n%2
-handleCommand.threadBanned=Gʀᴏᴜᴘ ɪs ʙᴀɴɴᴇᴅ Yᴏᴜ ᴛʜʀᴇᴀᴅ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ!\n%1\n%2
+handleCommand.userBanned=𝚈𝙾𝚄 𝙷𝙰𝚅𝙴 𝙱𝙰𝙽𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 𝙽𝙸𝚂𝙰𝙽 𝚂𝙴𝚁𝚅𝙴𝚁 𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙸𝙽𝚃𝙰𝙲𝚃 𝙽𝙸𝚂𝙰𝙽 𝙰𝙳𝙼𝙸𝙽 𝙸 𝙼𝙴𝙰𝙽 Bᴏᴛ Aᴅᴍɪɴ \n☞︎︎︎ 𝚁𝙴𝙰𝚂𝙾𝙽: %1\n☞︎︎︎  𝚃𝙸𝙼𝙴: %2\n☞︎︎︎ 𝚄𝚂𝙴𝚁 𝙸𝙳: %3!\n%1\n%2
+handleCommand.threadBanned=𝚃𝙷𝙸𝚂 𝙶𝚁𝙾𝚄𝙿 𝙱𝙰𝙽𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 𝙽𝙸𝚂𝙰𝙽 \n☞︎︎︎ 𝚁𝙴𝙰𝚂𝙾𝙽: %1\n☞︎︎︎ 𝚃𝙸𝙼𝚂: %2\n☞︎︎︎ 𝚃𝙷𝚁𝙴𝙰𝙳 𝙸𝙳: %3!\n%1\n%2
 handleCommand.commandNotExist=Tʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʏᴏᴜ ᴜsᴇᴅ ᴅᴏᴇsɴ'ᴛ ᴇxɪsᴛ, ɪs ᴛʜᴀᴛ "%1" ᴏʀ ɴᴏᴛ?
 handleCommand.commandThreadBanned=Yᴏᴜʀ ᴛʜʀᴇᴀᴅ ɪs ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅ "%1"
 handleCommand.commandUserBanned=Yᴏᴜ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅ "%1"
@@ -72,7 +72,7 @@ handleCommand.executeCommand=[ %1 ] Cᴍᴅ ᴜsᴇᴅ: %2 ʙʏ ᴜsᴇʀ: %3 �
 handleCommand.commandError=Hᴀᴠɪɴɢ sᴏᴍᴇ ᴜɴᴇxᴘᴇᴄᴛᴇᴅ ᴇʀʀᴏʀ ᴡʜᴇɴ ᴜsɪɴɢ ᴄᴍᴅ %1, ᴇʀʀᴏʀ: %2
 handleCommand.notMatched=⚠Tʜɪs command does not require a prefix to start with.
 handleCommand.noPrefix=This command has no command config "usePrefix" property
-handleCommand.commandNotFound=The command you used doesn't exist.
+handleCommand.commandNotFound=𝙲𝙼𝙳 "%1" 𝙳𝙾𝙴𝚂 𝙽𝙾𝚃 𝙴𝚇𝙸𝚂𝚃, 𝚃𝚈𝙿𝙴 %2𝙷𝙴𝙻𝙿 𝚃𝙾 𝚅𝙸𝙴𝚆 Bᴏᴛ 𝙰𝙻𝙻 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙲𝙼𝙳.
 
 # includes/handle/handleCommandEvent.js
 
