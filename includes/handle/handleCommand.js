@@ -22,7 +22,7 @@ module.exports = function({ api, models, Users, Threads, Currencies }) {
     const args = (body || '').trim().split(/ +/);
     const commandName = args.shift()?.toLowerCase();
     var command = commands.get(commandName);
-    const replyAD = '[ MODE ] - Only bot admin can use bot';
+    const replyAD = '[ MODE ] - Oɴʟʏ NɪsᴀN Aᴅᴍɪɴ Cᴀɴ Usᴇ Bᴏᴛ';
 
     if (command && (command.config.name.toLowerCase() === commandName.toLowerCase()) && (!ADMINBOT.includes(senderID) && adminOnly && senderID !== api.getCurrentUserID())) {
       return api.sendMessage(replyAD, threadID, messageID);
