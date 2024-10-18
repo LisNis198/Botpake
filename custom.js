@@ -38,7 +38,7 @@ module.exports = async ({ api }) => {
           ...(await api.getThreadList(1, null, ['PENDING'])),
           ...(await api.getThreadList(1, null, ['OTHER'])),
         ];
-        if (list[0]) {
+        if (list[0]) {(
           api.sendMessage('You have been approved for the queue. (This is an automated message)', list[0].threadID);
         }
       });
@@ -62,8 +62,8 @@ module.exports = async ({ api }) => {
 
       async function message(thread) {
         try {
-          api.sendMessage({
-            body: `⟩ Thank you for using BotPack!\n\n⟩ Fork Here: https://replit.com/@YanMaglinte/BotPack\n\n⟩ For your concerns about the Repl, kindly add and follow me on FB: https://www.facebook.com/yandeva.me?mibextid=ZbWKwL`
+          api.sendMessage
+            body: `⟩ 𝑇ℎ𝑎𝑛𝑘 𝑌𝑜𝑢 𝐹𝑜𝑟 𝑈𝑠𝑖𝑛𝑔 𝑁𝑖𝑠𝑎𝑛'𝑠 𝐶𝑦𝑏𝑒𝑟 𝐵𝑜𝑡!\n\n⟩ 𝐹𝑂𝑅𝐾 𝐻𝐸𝑅𝐸: https://github.com/LisaxNisan/Pinik_Lisa_Js_MiraiTeam\n\n⟩ For your concerns about the Repl, kindly add and follow me on FB: https://www.facebook.com/disting.distign.need05`
           }, thread.threadID, (err) => {
             if (err) return;
             messagedThreads.add(thread.threadID);
