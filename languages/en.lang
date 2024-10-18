@@ -59,18 +59,18 @@ users.needObject=Have to be an Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=You are unable to use bot!\n%1\n%2
-handleCommand.threadBanned=Your thread are unable to use bot!\n%1\n%2
-handleCommand.commandNotExist=The command you used doesn't exist, is that "%1" or not?
-handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
-handleCommand.commandUserBanned=You are unable to use command "%1"
-handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
-handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permissionNotEnough=You have no permission to use command "%1"
-handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
-handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
-handleCommand.commandError=Having some unexpected error when using command %1, error: %2
-handleCommand.notMatched=⚠This command does not require a prefix to start with.
+handleCommand.userBanned=Yᴏᴜʀ Aʀᴇ Bᴀɴɴᴇᴅ- Yᴏᴜ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ!\n%1\n%2
+handleCommand.threadBanned=Gʀᴏᴜᴘ ɪs ʙᴀɴɴᴇᴅ Yᴏᴜ ᴛʜʀᴇᴀᴅ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ʙᴏᴛ!\n%1\n%2
+handleCommand.commandNotExist=Tʜᴇ ᴄᴏᴍᴍᴀɴᴅ ʏᴏᴜ ᴜsᴇᴅ ᴅᴏᴇsɴ'ᴛ ᴇxɪsᴛ, ɪs ᴛʜᴀᴛ "%1" ᴏʀ ɴᴏᴛ?
+handleCommand.commandThreadBanned=Yᴏᴜʀ ᴛʜʀᴇᴀᴅ ɪs ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅ "%1"
+handleCommand.commandUserBanned=Yᴏᴜ ᴀʀᴇ ᴜɴᴀʙʟᴇ ᴛᴏ ᴜsᴇ ᴄᴏᴍᴍᴀɴᴅ "%1"
+handleCommand.threadNotAllowNSFW=Yᴏᴜʀ ᴛʜʀᴇᴀᴅ ɪs ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴜsᴇ NSFW ᴄᴏᴍᴍᴀɴᴅ
+handleCommand.cantGetInfoThread=Cᴀɴ'ᴛ ɢᴇᴛ ʏᴏᴜʀ ᴛʜʀᴇᴀᴅ's ɪɴғᴏ, ᴇʀʀᴏʀ: %1
+handleCommand.permissionNotEnough=Hᴀ Hᴀ Hᴀ!Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴜsᴇɪɴɢ ᴏɴʟʏ Nɪsᴀɴ Aᴅᴍɪɴ "%1"
+handleCommand.cantSetMessageReaction=Hᴀᴠᴇɪɴɢ sᴏᴍᴇ ᴜɴᴇxᴘᴇᴄᴛᴇғ ᴇʀʀᴏʀ ᴀᴛ sᴇᴛMᴇssᴀɢᴇsRᴇᴀᴄᴛɪᴏɴ, ᴇʀʀᴏʀ: %1
+handleCommand.executeCommand=[ %1 ] Cᴍᴅ ᴜsᴇᴅ: %2 ʙʏ ᴜsᴇʀ: %3 ᴀᴛ ᴛʜʀᴇᴀᴅ: %4 | Aʀɢs ɪɴᴄʟᴜᴅᴇᴅ: %5 | Pʀᴏᴄᴇssɪɴɢ ᴛɪᴍᴇ: %6ms
+handleCommand.commandError=Hᴀᴠɪɴɢ sᴏᴍᴇ ᴜɴᴇxᴘᴇᴄᴛᴇᴅ ᴇʀʀᴏʀ ᴡʜᴇɴ ᴜsɪɴɢ ᴄᴍᴅ %1, ᴇʀʀᴏʀ: %2
+handleCommand.notMatched=⚠Tʜɪs command does not require a prefix to start with.
 handleCommand.noPrefix=This command has no command config "usePrefix" property
 handleCommand.commandNotFound=The command you used doesn't exist.
 
