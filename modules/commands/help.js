@@ -113,16 +113,17 @@ module.exports.run = async function ({ api, event, args, getText }) {
       );
       const commandNames = categoryCommands.map((cmd) => cmd.config.name);
       const numberFont = [
-        "❶",
-        "❷",
-        "❸",
-        "❹",
-        "❺",
-        "❻",
-        "❼",
-        "❽",
-        "❾",
-        "❿",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎",
+        "☔︎"
+	"☔︎",
+        "☔︎",
       ];
       msg += `╭[ ${numberFont[i]} ]─❍ ${
         category.charAt(0).toUpperCase() + category.slice(1)
@@ -130,26 +131,26 @@ module.exports.run = async function ({ api, event, args, getText }) {
     }
 
     const numberFontPage = [
-      "❶",
-      "❷",
-      "❸",
-      "❹",
-      "❺",
-      "❻",
-      "❼",
-      "❽",
-      "❾",
-      "❿",
-      "⓫",
-      "⓬",
-      "⓭",
-      "⓮",
-      "⓯",
-      "⓰",
-      "⓱",
-      "⓲",
-      "⓳",
-      "⓴",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
+      "☔︎",
     ];
     msg += `╭ ──────── ╮
 │ Page ${numberFontPage[currentPage - 1]} of ${
@@ -161,15 +162,15 @@ module.exports.run = async function ({ api, event, args, getText }) {
     const fs = require("fs-extra");
     const imgP = [];
     const img = [
-      "https://i.imgur.com/ruQ2pRn.jpg",
-      "https://i.imgur.com/HXHb0cB.jpg",
-      "https://i.imgur.com/ZJEI6KW.jpg",
-      "https://i.imgur.com/XGL57Wp.jpg",
-      "https://i.imgur.com/6OB00HJ.jpg",
-      "https://i.imgur.com/6vHaRZm.jpg",
-      "https://i.imgur.com/k6uE93k.jpg"
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg",
+      "https://i.imgur.com/hDTLa1z.jpeg"
     ];
-    const path = __dirname + "/cache/menu.png";
+    const path = __dirname + "https://i.imgur.com/hDTLa1z.jpeg";
     const rdimg = img[Math.floor(Math.random() * img.length)];
 
     const { data } = await axios.get(rdimg, {
