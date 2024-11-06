@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "sendnoti",
+    name: "noti",
     version: "1.0.0",
     hasPermssion: 2,
     credits: "Yan Maglinte",
