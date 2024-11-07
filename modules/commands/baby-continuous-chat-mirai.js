@@ -36,7 +36,7 @@ module.exports.config = {
   credits: "dipto",
   description: "better than all Sim simi",
   usePrefix: true,
-  prefix:true,
+  prefix:"awto",
   category: "ChatBots",
   commandCategory: "ChatBots",
   cooldowns: 5,
@@ -75,7 +75,7 @@ module.exports.run = async function ({ api, args, event }) {
     const dipto = args.join(" ").toLowerCase();
     if (!args[0]) {
       api.sendMessage(
-        "Please provide a question to answer\n\nExample:\nbby ki koro",
+        "𝙿𝚕𝚎𝚊𝚜𝚎 𝚙𝚛𝚘𝚟𝚒𝚍𝚎 𝚊 𝚚𝚞𝚎𝚜𝚝𝚒𝚘𝚗 𝚝𝚘 𝚊𝚗𝚜𝚠𝚎𝚛\n\n𝙴𝚡𝚊𝚖𝚙𝚕𝚎:\n𝙱𝚋𝚢 𝚑𝚒",
         event.threadID,
         event.messageID,
       );
