@@ -49,12 +49,12 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.postimg.cc/j5y56nHL/muhammad-ali-pasha-cairo-219717-5352.webp",
 "https://i.postimg.cc/dVWyHfhr/images-1-21.jpg",
 "https://i.postimg.cc/q7MGgn3X/images-1-22.jpg",
-"https://i.postimg.cc/sX5CXtSh/images-1-16.jpg",
-"https://i.postimg.cc/66Rp2Pwz/images-1-17.jpg",
-"https://i.postimg.cc/Qtzh9pY2/images-1-18.jpg",
-"https://i.postimg.cc/MGrhdz0R/images-1-19.jpg",
-"https://i.postimg.cc/LsMSj9Ts/images-1-20.jpg",
-"https://i.postimg.cc/KzNXyttX/images-1-13.jpg",
+"",
+"",
+"",
+"",
+"",
+"",
 
 
   
