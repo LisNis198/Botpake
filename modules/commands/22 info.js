@@ -24,36 +24,33 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/jfVTL4T.jpeg", 
+var link = ["https://i.imgur.com/hDTLa1z.jpeg", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg", 
+            "https://i.imgur.com/WRDSYlU.gif", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg",
+            "https://i.imgur.com/hDTLa1z.jpeg",
 
-            "https://i.imgur.com/jfVTL4T.jpeg"];
+            "https://i.imgur.com/WRDSYlU.gif"];
 
-var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
+var callback = () => api.sendMessage({body:`•—»《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》
  •┄┅════❁🌺❁════┅┄•
 
-𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫 𝐂𝐡𝐚𝐭
+𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ⩸__${global.GoatBot.config.nickNameBot}__⩸
 
-𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : 𝟕 𝐀d𝐦𝐢𝐧 𝐜𝐨𝐧𝐭𝐫𝐨𝐥 𝐓𝐡𝐢𝐬 𝐑𝐨𝐛𝐨𝐭
+𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : ⩸__𝙽𝙸 𝚂 𝙰𝙽__⩸
+
+𝐀𝐠𝐞       : 『 ⩸__20__⩸ 』
+
 
 •┄┅══❁CONCATET❁══┅┄• 
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=100081939442749
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=61568515043007
 
-𝐖𝐏  : wa.me/+8801859561262
-𝐖𝐏 : wa.me/+880 1309-991724
-𝐖𝐏 : wa.me/+880 1905-600093
-𝐖𝐏 : wa.me/+880 1771-717162
-𝐖𝐏 : wa.me/+880 1885-115218
-𝐖𝐏 : wa.me/+880 1763-899929
-𝐖𝐏 : wa.me/+880 1814-587247
+𝐖𝐏  : wa.me/+88017××××××98
 
 •┄┅═══❁🌺❁═══┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═══❁🌺❁═══┅┄•
 
-TYPE /help
+TYPE %1help
 
 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : ${global.config.BOTNAME}
 
@@ -65,6 +62,6 @@ TYPE /help
 
 𝐁𝐨𝐭 𝐈𝐬 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 ${hours}:${minutes}:${seconds}.
 
-𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment: fs.createReadStream(__dirname + "/cache/cyber.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/cyber.jpg")); 
-      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/cyber.jpg")).on("close",() => callback());
+𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠  ༄🌺\n｢🕋｣${global.config.BOTNAME}｢🕋｣`,attachment:  event.threadID); 
+      return request(encodeURI(link[Math.floor(Math.random() * link.length)])).on("close",() => callback());
    };
