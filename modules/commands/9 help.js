@@ -1,5 +1,5 @@
 module.exports.config = {
- name: "help",
+ name: "3help",
  version: "2.0.0",
  permssion: 0,
  credits: "Islamick Cyber Chat",
